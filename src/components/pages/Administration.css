@@ -1,0 +1,754 @@
+/* * {margin : 0 ; padding : 0;} */
+.main {
+    width : 100% ;
+    
+    border : 1px solid black;
+   
+    color : whitesmoke;
+    display : grid;
+    grid-template-columns : 250px 1fr;
+    
+}
+.div-grid-align{padding: 4%;
+   
+    border : 1px solid black;
+    text-align: center ;
+    background : rgba(250, 237, 217, 0.514);
+    color: black;
+    
+    
+}
+
+      
+.div6{
+    background :whitesmoke;
+    grid-row: 1/8;
+    grid-column: 2/3;
+    height : 968px;
+    position: relative;
+    color: black;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,.div5,.div7
+{
+    background:none;
+    border:2px solid #000;
+    font-family: "montserrat",sans-serif;
+    margin:4%;
+    cursor:pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.div1:hover{
+    color:#fff;
+}
+.div1::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div1::before{
+    transform:scalex(0);
+}
+.div1:hover::before{
+    transform:scalex(1);
+}
+
+.div2:hover{
+    color:#fff;
+}
+.div2::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div2::before{
+    transform:scalex(0);
+}
+.div2:hover::before{
+    transform:scalex(1);
+}
+
+.div3:hover{
+    color:#fff;
+}
+.div3::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div3::before{
+    transform:scalex(0);
+}
+.div3:hover::before{
+    transform:scalex(1);
+}
+
+.div4:hover{
+    color:#fff;
+}
+.div4::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div4::before{
+    transform:scalex(0);
+}
+.div4:hover::before{
+    transform:scalex(1);
+}
+
+.div5:hover{
+    color:#fff;
+}
+.div5::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div5::before{
+    transform:scalex(0);
+}
+.div5:hover::before{
+    transform:scalex(1);
+}
+
+.div7:hover{
+    color:#fff;
+}
+.div7::before{
+    content :"";
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:var(--primary);
+    z-index:-1;
+    transition: transform 0.7s;
+    transform-origin: 0 0;
+    transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+
+}
+.div7::before{
+    transform:scalex(0);
+}
+.div7:hover::before{
+    transform:scalex(1);
+}
+
+@media screen and (max-width: 1366px) {
+    .main {
+        width : 100% ;
+        
+        border : 1px solid black;
+        
+        color : whitesmoke;
+        display : grid;
+        grid-template-columns : 220px 1fr;
+        
+    }
+    .div-grid-align{padding: 4%;
+       
+        border : 1px solid black;
+        text-align: center ;
+        background : rgba(250, 237, 217, 0.514);
+        color: black;
+        
+        
+    }
+    
+          
+    .div6{
+        background :whitesmoke;
+        grid-row: 1/8;
+        grid-column: 2/3;
+        height : 788px;
+        position: relative;
+        color: black;
+    }
+    
+    .div1,
+    .div2,
+    .div3,
+    .div4,.div5,.div7
+    {
+        background:none;
+        border:2px solid #000;
+        font-family: "montserrat",sans-serif;
+        margin:4%;
+        cursor:pointer;
+        transition: color 0.4s linear;
+        position: relative;
+    }
+    .div1:hover{
+        color:#fff;
+    }
+    .div1::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div1::before{
+        transform:scalex(0);
+    }
+    .div1:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div2:hover{
+        color:#fff;
+    }
+    .div2::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div2::before{
+        transform:scalex(0);
+    }
+    .div2:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div3:hover{
+        color:#fff;
+    }
+    .div3::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div3::before{
+        transform:scalex(0);
+    }
+    .div3:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div4:hover{
+        color:#fff;
+    }
+    .div4::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div4::before{
+        transform:scalex(0);
+    }
+    .div4:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div5:hover{
+        color:#fff;
+    }
+    .div5::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div5::before{
+        transform:scalex(0);
+    }
+    .div5:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div7:hover{
+        color:#fff;
+    }
+    .div7::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div7::before{
+        transform:scalex(0);
+    }
+    .div7:hover::before{
+        transform:scalex(1);
+    }
+}
+@media screen and (max-width: 960px) {
+    .main {
+        width : 100% ;
+        
+        border : 1px solid black;
+        
+        color : whitesmoke;
+        display : grid;
+        grid-template-columns : 200px 1fr;
+        
+    }
+    .div-grid-align{padding: 4%;
+       
+        border : 1px solid black;
+        text-align: center ;
+        background : rgba(250, 237, 217, 0.514);
+        color: black;
+        
+        
+    }
+    
+          
+    .div6{
+        background :whitesmoke;
+        grid-row: 1/8;
+        grid-column: 2/3;
+        height : 788px;
+        position: relative;
+        color: black;
+    }
+    
+    .div1,
+    .div2,
+    .div3,
+    .div4,.div5,.div7
+    {
+        background:none;
+        border:2px solid #000;
+        font-family: "montserrat",sans-serif;
+        margin:4%;
+        cursor:pointer;
+        transition: color 0.4s linear;
+        position: relative;
+        
+    }
+    .div1:hover{
+        color:#fff;
+    }
+    .div1::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div1::before{
+        transform:scalex(0);
+    }
+    .div1:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div2:hover{
+        color:#fff;
+    }
+    .div2::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div2::before{
+        transform:scalex(0);
+    }
+    .div2:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div3:hover{
+        color:#fff;
+    }
+    .div3::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div3::before{
+        transform:scalex(0);
+    }
+    .div3:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div4:hover{
+        color:#fff;
+    }
+    .div4::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div4::before{
+        transform:scalex(0);
+    }
+    .div4:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div5:hover{
+        color:#fff;
+    }
+    .div5::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div5::before{
+        transform:scalex(0);
+    }
+    .div5:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div7:hover{
+        color:#fff;
+    }
+    .div7::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div7::before{
+        transform:scalex(0);
+    }
+    .div7:hover::before{
+        transform:scalex(1);
+    }
+       
+}
+@media screen and (max-width: 480px) {
+    .main {
+        width : 100% ;
+        
+        border : 1px solid black;
+        
+        color : whitesmoke;
+        display : grid;
+        grid-template-columns : 150px 1fr;
+        
+    }
+    .div-grid-align{padding: 4%;
+       
+        border : 1px solid black;
+        text-align: center ;
+        background : rgba(250, 237, 217, 0.514);
+        color: black;
+        
+        
+    }
+    
+          
+    .div6{
+        background :whitesmoke;
+        grid-row: 1/8;
+        grid-column: 2/3;
+        height : 788px;
+        position: relative;
+        color: black;
+    }
+    
+    .div1,
+    .div2,
+    .div3,
+    .div4,.div5,.div7
+    {
+        background:none;
+        border:2px solid #000;
+        font-family: "montserrat",sans-serif;
+        margin:4%;
+        cursor:pointer;
+        transition: color 0.4s linear;
+        position: relative;
+    }
+    .div1:hover{
+        color:#fff;
+    }
+    .div1::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div1::before{
+        transform:scalex(0);
+    }
+    .div1:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div2:hover{
+        color:#fff;
+    }
+    .div2::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div2::before{
+        transform:scalex(0);
+    }
+    .div2:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div3:hover{
+        color:#fff;
+    }
+    .div3::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div3::before{
+        transform:scalex(0);
+    }
+    .div3:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div4:hover{
+        color:#fff;
+    }
+    .div4::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div4::before{
+        transform:scalex(0);
+    }
+    .div4:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div5:hover{
+        color:#fff;
+    }
+    .div5::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div5::before{
+        transform:scalex(0);
+    }
+    .div5:hover::before{
+        transform:scalex(1);
+    }
+    
+    .div7:hover{
+        color:#fff;
+    }
+    .div7::before{
+        content :"";
+        position:absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:var(--primary);
+        z-index:-1;
+        transition: transform 0.7s;
+        transform-origin: 0 0;
+        transition-timing-function:cubic-bezier(1.7,1.5,0.4,0.5);
+    
+    }
+    .div7::before{
+        transform:scalex(0);
+    }
+    .div7:hover::before{
+        transform:scalex(1);
+    }
+}
