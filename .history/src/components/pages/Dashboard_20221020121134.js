@@ -6,11 +6,7 @@ import './Dashboard.css';
 
 export default function Dashboard() {
   return ( <>
-  <div>
-  <h1>welcome!</h1>
-  
-  
-</div>
+  <b class="Welcome">Welcome!</b>
   <button type="button" className='btn projectbtn'>+ Project</button>
   <div class="grid-container">
   <div class="grid-item">1</div>

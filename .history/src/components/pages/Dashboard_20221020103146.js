@@ -6,18 +6,9 @@ import './Dashboard.css';
 
 export default function Dashboard() {
   return ( <>
-  <div>
-  <h1>welcome!</h1>
   
-  
-</div>
   <button type="button" className='btn projectbtn'>+ Project</button>
-  <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>
-
-</div>
+  <div style="border: 1px solid black">Hello World</div>
   </>
   )
  }

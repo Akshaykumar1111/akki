@@ -7,7 +7,7 @@ import './Dashboard.css';
 export default function Dashboard() {
   return ( <>
   <div>
-  <h1>welcome!</h1>
+  <h1>text formatting</h1>
   
   
 </div>
